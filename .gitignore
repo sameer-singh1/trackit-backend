@@ -1,0 +1,16 @@
+# Ignore virtual environment
+env/
+_pycache_/
+*.pyc
+
+# Ignore SQLite database
+db.sqlite3
+
+# Ignore Django secret key if separated
+*.env
+
+# Ignore OS files
+.DS_Store
+
+# Ignore migrations
+*/migrations/
